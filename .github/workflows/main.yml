@@ -1,0 +1,17 @@
+- name: Upload & Publish Chrome Extension
+  # You may pin to the exact commit or the version.
+  # uses: fast-facts/chrome-extension-upload-action@1f8350bfeec4e2608d02bf584a221552447a9d28
+  uses: fast-facts/chrome-extension-upload-action@v1.4.1
+  with:
+    # Auth refresh token
+    refresh-token: 
+    # Extension application target id
+    app-id: 
+    # Token client id
+    client-id: 
+    # Token client secret
+    client-secret: 
+    # Name of zipped target upload file
+    file-name: 
+    # True Or False to publish after upload
+    publish: 
